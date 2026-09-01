@@ -1,5 +1,5 @@
 # project1-decodes
-This is the first project from decodes of making simple ruled based AI chatbot 
+This is the first project from decodes of making simple ruled based AI chatbot  and i load the dataset into the project.
 # Simple Rule-Based Chatbot
 
 ## Project Description

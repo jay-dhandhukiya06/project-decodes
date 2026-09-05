@@ -112,3 +112,64 @@ The main objective of this project is to understand the basic workflow of **Mach
 ## Conclusion
 
 The **Basic Classification Model** provides a simple introduction to Machine Learning. It demonstrates how a dataset can be prepared, divided into training and testing sets, used to train a classification model, and evaluated to understand its performance.
+
+
+# Project 3 AI Recommendation System 
+
+This is the third project from **Project Decodes**, focused on creating a simple **Product Recommendation System using Python**. The project uses an e-commerce dataset containing information about products, prices, quantities, payment methods, and order details.
+
+## Project Description
+
+The **Simple Product Recommendation System** is a beginner-friendly Python project that recommends products based on **user preferences**.
+
+The system takes user input such as the **product they are interested in** and their **preferred payment method**. It then compares these preferences with the available data in the dataset and finds matching products.
+
+The project uses basic **logic and pattern matching** to provide recommendations instead of using advanced machine learning algorithms. It demonstrates how user preferences can be used to filter data and generate relevant recommendations. The dataset includes fields such as Product, Quantity, UnitPrice, PaymentMethod, ItemsInCart, ReferralSource, and TotalPrice.
+
+## Key Features
+
+* **User Input:** Takes product and payment preferences from the user.
+* **Preference Matching:** Compares user preferences with the dataset.
+* **Product Recommendation:** Displays products matching the selected preferences.
+* **Fallback Recommendation:** Provides product recommendations even when the payment method does not match.
+* **Dataset Integration:** Uses an e-commerce dataset for generating recommendations.
+* **Simple Logic:** Uses basic Python conditions and data filtering.
+
+## How This Project Works
+
+The system follows a simple process:
+
+**Dataset → User Preferences → Data Matching → Filter Results → Display Recommendations**
+
+1. The dataset is loaded using Pandas.
+2. The user enters their preferred product and payment method.
+3. The system compares the user's choices with the dataset.
+4. Matching records are filtered from the dataset.
+5. The relevant product details are displayed as recommendations.
+6. If an exact match is not available, the system provides recommendations based on the selected product.
+
+## Technologies Used
+
+* **Programming Language:** Python
+* **Library:** Pandas
+* **Concepts:** User Input, Conditions, Data Filtering, String Handling
+* **AI Concept:** Recommendation System
+* **Technique:** Preference Matching and Pattern Matching
+
+## Objective
+
+The main objective of this project is to understand the basic concept of **recommendation systems** and learn how user preferences can be matched with existing data to provide personalized recommendations.
+
+## Key Skills
+
+* Logic Building
+* Data Handling
+* Pattern Matching
+* User Preference Analysis
+* Data Filtering
+* Python Programming
+* Recommendation Concepts
+
+## Conclusion
+
+The **Simple Product Recommendation System** provides a basic understanding of how recommendation systems can use user preferences and existing data to generate useful suggestions. It serves as a foundation for developing more advanced recommendation systems using **similarity techniques and Machine Learning**.
